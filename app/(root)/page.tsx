@@ -1,7 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { APP_NAME } from "@/lib/constants";
 
-const HomePage = () => {
-  return <Button>Default Button</Button>  ;
+const HomePage =   () => {
+  return (
+    <>
+      {APP_NAME}
+    </>
+  );
 };
 
 export default HomePage;

@@ -8,7 +8,7 @@ const LoadingPage = () => {
       role="status"
       aria-label="Loading"
     >
-      <Image src={loader} height={50} width={50} alt="Loading..." />
+      <Image src={loader} loading="eager" width={50} height={50} alt="Loading..." />
     </div>
   );
 };

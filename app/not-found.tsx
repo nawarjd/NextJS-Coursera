@@ -10,6 +10,7 @@ const NotFoundPage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen ">
       <Image
         src="/images/logo.svg"
+        loading="eager"
         alt={`${APP_NAME} logo`}
         priority={true}
         width={48}
@@ -22,6 +23,7 @@ const NotFoundPage = () => {
           variant="outline"
           className="mt-4 ml-2"
           render={<Link href="/" />}
+          nativeButton={false}
         >
           Back To Home
         </Button>
